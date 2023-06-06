@@ -1,0 +1,272 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    box-sizing: border-box;
+    /* background-color :aliceblue; */
+}
+.container-fluid-advertise-top-banner{
+    height: 5rem;
+    background-color: black;
+    /* position: absolute; */
+}
+.best-seller{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.foot-image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.foot-image img{
+    width: 30rem;
+    height: 25rem;
+}
+.head-image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.head-image img{
+    width: 31rem;
+}
+.hide{
+    width: 159px;
+    display: none;
+}
+.hide img{
+    width: 159px;
+   position: relative;
+}
+.previous{
+   width: 100px
+}
+.next{
+   width: 100px
+}
+.center-image{
+    background-color: #d1e5f0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-image img{
+    width: 100vw;
+    height: 20rem;
+}
+.sticky-nav-bar-cont1{
+    width: 25rem;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    color: skyblue;
+}
+.sticky-nav-bar-cont2{
+    width: 50rem;
+    color: white;
+}
+.sticky-nav-bar-cont3{
+    width: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.sticky-nav-bar-item{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-bar{
+    height: 6rem;
+    display: flex;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.nav-bar-expand{
+    display: flex;
+}
+.drop-hover-box{
+    display: flex;
+}
+.blue:hover{
+    cursor: pointer;
+    background-color: blue;
+    color : white;
+}
+.pink:hover{
+    cursor: pointer;
+    background-color: pink;
+    color : white;
+}
+.red:hover{
+    cursor: pointer;
+    background-color: red;
+    color : white;
+}
+.nav-input-cont{
+    display: none;
+}
+.input-cont{
+    display: none;
+}
+.sticky-nav-bar-cont1:hover{
+    cursor: pointer;
+}
+.nav-search-cancel-bar{
+    display: flex;
+    align-items: center;
+}
+.fa-search{
+    cursor:pointer;
+    margin : 3rem
+}
+.fa-times{
+    margin: 3rem;
+    cursor: pointer;
+}
+.sticky-nav-bar{
+    z-index: 1;
+    height: 5rem;
+    background-color: #2C3A47;
+    top : 0;
+    display: flex;
+    align-items: center;
+    position : absolute;
+}
+.footer-menu{
+    display: flex;
+    width: 40rem;
+    left: 25rem;
+    position: relative;
+    justify-content: space-evenly;
+    font-size: 20px;
+    margin : 2rem
+}
+.cursor:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.copyright-text{
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.follow-icon{
+    display: flex;
+    width: 20rem;
+    left: 35rem;
+    position: relative;
+    justify-content: space-evenly;
+    font-size: 30px;
+    margin : 2rem
+}
+.follow-text{
+    display: flex;
+    margin: 3rem;
+    justify-content: center;
+    font-size: 25px;
+}
+.box{
+    height: 15rem;
+    background-color: #636e72;
+    width: 35rem;
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+.box1{
+    position: absolute;
+    left :10rem;
+}
+.box2{
+    position: absolute;
+    left :20rem;
+}
+.box3{
+    position: absolute;
+    left :30rem;
+}
+.fullcontainer{
+    opacity: 1;
+}
+.box4{
+    position: absolute;
+    left :40rem;
+}
+.box5{
+    position: absolute;
+    left :50rem;
+}
+.box6{
+    position: absolute;
+    left :60rem;
+}
+.drop{
+    font-size: 20px;
+}
+.drop:hover{
+    cursor: pointer;
+    color : blue
+}
+.dropdown{
+    font-size: 20px;
+}
+.dropdown:hover{
+    cursor: pointer;
+    /* background-color: black; */
+    color: blue;
+}
+.nav-item{
+    width: 60rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    left: 10rem;
+    /* padding: 1rem; */
+}
+.search-cancel-bar{
+    width: 30rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.website-name{
+    position: relative;
+    width: 60%;
+    font-size: 3rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-bar-expand{
+    height: 4rem;
+    /* background-color: aqua; */
+}
+.profile{
+    width: 40%;
+    display: flex;
+    /* background-color: pink; */
+    justify-content: flex-end;
+    align-items: center;
+}
+.sign-in-btn{
+    margin: 2rem;
+    border: none;
+    background-color: white;
+    font-size: 1.4rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.sign-in-btn:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.personal-detail-btn{
+    margin : 2rem;
+    background-color: white;
+    border: none;
+}
+
